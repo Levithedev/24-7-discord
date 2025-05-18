@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-bot
+    env: python # or node
+    repo: https://github.com/your-username/your-repo
+    plan: free
+    buildCommand: ""
+    startCommand: python bot.py # or npm start
+    autoDeploy: true
